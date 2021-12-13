@@ -158,15 +158,17 @@
                   var img = document.createElement("img");
                   img.src = "demo1.jpg";
                   var pat = canvasCtx.createPattern(img, "no-repeat");
+                  canvasCtx.fillStyle = "rgba(0,0,0,0)";
                   canvasCtx.fillStyle = pat;
                   // END
                   break;
                 case "Background 2":
                   // This is for image backdrop
                   var img = document.createElement("img");
-                      img.src = "demo2.jpg";
-                      var pat = canvasCtx.createPattern(img, "no-repeat");
-                      canvasCtx.fillStyle = pat;
+                  img.src = "demo2.jpg";
+                  var pat = canvasCtx.createPattern(img, "no-repeat");
+                  canvasCtx.fillStyle = "rgba(0,0,0,0)";
+                  canvasCtx.fillStyle = pat;
                   // END
                   break;
                 default:
